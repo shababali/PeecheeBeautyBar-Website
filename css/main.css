@@ -28,7 +28,7 @@ a:hover, a:focus {
 @media (min-width: 800px) {
 	
   #bannerphoto {
-	background: url('../images/bannerLG.jpg') no-repeat center center fixed; 
+	background: url('../images/bannerLG.jpg') no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -43,7 +43,7 @@ a:hover, a:focus {
 @media (max-width: 800px) {
 
   #bannerphoto {
-	background: url("../images/bannerSM.jpg") no-repeat center center fixed; 
+	background: url("../images/bannerSM.jpg") no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
