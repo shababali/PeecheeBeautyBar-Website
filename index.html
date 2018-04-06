@@ -3,60 +3,72 @@
 <html lang="en">
 
   <head>
+  
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="PeecheBeautyBar Webpage">
     <meta name="author" content="Shabab Ali">
 	<title>PBB</title>
-	
+
 
     <!-- Main fonts Google API for PeecheBeautyBar webpage -->
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-	
+
 	<!-- Bootstrap 4.0 core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	
-	<!-- Font Awesome for Icon Graphics-->
+
+	<!-- Font Awesome for Icon Graphics -->
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  
+
   	<!-- Main Custom Style Sheet for PeecheBeautyBar webpage -->
 	<link href="css/main.css" rel="stylesheet">
-  
+
   </head>
 	
-  <body>
-		<!--START FIXED TOP IMAGE-->
-		<div id="fix-image">
+	<body>
+  
+  
+	    <!--START FIXED TOP IMAGE-->
+	    <div id="fix-image">
           <div id="bannerphoto" >
-		    <div id = "downarrow">
-			  <span data-scroll-nav="1">
-			  <img src="images/toggle-down-arrow.svg">
-			  </span>
-		    </div><!--#downarrow--> 
+		    <div id="uparrow">
+			  <!-- Default dropup button -->
+			  <div class="btn-group dropup" >
+				<button type="button" class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Peeche Beauty Bar
+				</button>
+				<div class="dropdown-menu">
+				<!-- Dropdown menu links -->
+				<span data-scroll-nav="1"><a class="dropdown-item" href="#">Services</a></span>
+				<span data-scroll-nav="2"><a class="dropdown-item" href="#">Contact</a></span>
+				</div>
+			  </div>
+			  <!-- End Default dropup button -->
+		    </div><!--#uparrow-->
 		  </div><!--#bannerphoto--> 
 		</div><!--#fix-image-->
 		<!--END FIXED TOP IMAGE-->
+			
 		
-		
-	  <!--START CANVAS: Main platform for all content layout-->
-	  <div class="scrollup">
-  
+	    <!-- START CANVAS: Main platform for all content layout (.scrollup) -->
+	    <div class="scrollup">
+	  
 			<!--START SERVICES-->
 			<div data-scroll-index="1">
-			<section id="services">
+			  <section id="services">
 			
 				<div class="row">
 				  <div class="col"><h1>Services</h1></div>
-				</div>
+				</div><!--.row Services-->
 				
 				<div class="row">
 					<div class ="col">
 					  <h4>Waxing</h4>
 					</div>
-				</div>
-				
+				</div><!--.row Waxing-->
+
 				<div class="row">
 					<div class="col-sm-2"></div>
 					<div class="col-sm-4">
@@ -86,41 +98,41 @@
 						</ul>  
 					</div>
 					<div class="col-sm-2"></div>
-				</div>
+				</div><!--.row Waxing-->
 				
 				<div class="row">
 					<div class="col-sm-1"></div>
 					<div class="col-sm-5">
-						  <h4>Nails</h4>
+						<h4>Nails</h4>
 						<ul class="unstyled">  
 						  <li>Classic&nbsp;Pedicure&nbsp;&nbsp;&nbsp;($43)</li>
-						  <li>Peeche&nbsp;Pedicure&nbsp;&nbsp;&nbsp;($53)</li>
+						  <li>Peechee&nbsp;Pedicure&nbsp;&nbsp;&nbsp;($53)</li>
 						  <li>Classic&nbsp;Manicure&nbsp;&nbsp;&nbsp;($33)</li>
 						  <li>Peechee&nbsp;Manicure&nbsp;&nbsp;&nbsp;($43)</li>
 						</ul>
-					</div>
+					</div><!--.col Nails-->
 					<div class="col-sm-5">
-						  <h4>Personalized&nbsp;Facials</h4>
+						<h4>Personalized&nbsp;Facials</h4>
 						<ul class="unstyled">  
 						  <li>30&nbsp;Minute&nbsp;Facial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;($45)</li>
 						  <li>60&nbsp;Minute&nbsp;Facial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;($75)</li>
 						  <li>90&nbsp;Minute&nbsp;Facial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;($100)</li>
 						  <li>60&nbsp;Minute&nbsp;Back&nbsp;Facial&nbsp;&nbsp;&nbsp;($80)</li>
 						</ul>
-					</div>
+					</div><!--.col Personalized Facials-->
 					<div class="col-sm-1"></div>
 				</div>
 				
 				<div class="row">
 					<div class="col-sm-1"></div>
 					<div class="col-sm-5">
-						  <h4>Tinting</h4>
+						<h4>Tinting</h4>
 						<ul class="unstyled">  
 						  <li>Lash&nbsp;Tint&nbsp;&nbsp;&nbsp;($21)</li>
 						  <li>Brow&nbsp;Tint&nbsp;&nbsp;&nbsp;($15)</li>
 						  <li>&nbsp;&nbsp;(with&nbsp;wax&nbsp;-&nbsp;$12)</li>
 						</ul>
-					</div>
+					</div><!--.col Tinting-->
 					<div class="col-sm-5">
 						  <h4>Hot&nbsp;Oil&nbsp;Massage</h4>
 						<ul class="unstyled">  
@@ -128,25 +140,50 @@
 						  <li>60&nbsp;Minute&nbsp;Massage&nbsp;&nbsp;&nbsp;($75)</li>
 						  <li>90&nbsp;Minute&nbsp;Massage&nbsp;&nbsp;&nbsp;($100)</li>
 						</ul>
-					</div>
+					</div><!--.col HotOilMassage-->
 					<div class="col-sm-1"></div>
 				</div>
 
-			</section><!--#services-->
+			  </section><!--#services-->
 			</div>
 			<!--END SERVICES-->
 
 			
 			<!--START CONTACT-->
 			<div data-scroll-index="2">
-			<section id="contact">	
-            
+			  <section id="contact">	
+
 				<div class="row">
 					<div class="col text-center">
                       <h1>Contact</h1>
-                      <p>Give us a call/text or send us an email to visit!</p>
 					</div>
 				</div> 
+				
+				<div class="row">
+					<div class="col">
+					<div class="container-fluid">
+					  <div class="embed-container">
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.8834946613874!2d-123.3611203843403!3d48.43957577924868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f7380f100e593%3A0x4a5ab5340b894779!2s2+Hillside+Ave%2C+Victoria%2C+BC+V8T+2A3!5e0!3m2!1sen!2sca!4v1521593947983" 
+					  frameborder="0" allowfullscreen></iframe>
+					  </div>
+					  </div>
+					</div>
+				</div><!--.row Map-->
+				
+				<div class="row">
+					<div class="col text-center">
+					  <address> <br />
+					  	<b>Address:</b>
+						2-1038 Hillside Avenue<br />
+						Victoria, BC<br />
+						V8T 2A5<br />
+					  </address>
+					  <p><b>Free Parking behind building entrance off Fifth Street.</b></p>
+					  <p><b>Hours:</b>
+					  10:00am - 6:00 pm Monday - Saturday (by&nbsp;appointment&nbsp;only)</p>
+                      <p>Give us a call/text or send us an email to visit!</p>
+					</div>
+				</div><!--.row Address-->
 			
 				<div class="row">
 					<div class="col"></div>
@@ -155,23 +192,23 @@
 					  <i class="fa fa-mobile fa-3x sr-contact"></i>
                       <p>Phone</p>
 					  </a>
-					</div>
+					</div><!--.col Phone-->
 					<div class="col text-center">
                        <a href="mailto:michelle@peecheebeautybar.ca">
 					   <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                        <p>Email</p>
 					   </a>
-					</div>
+					</div><!--.col Email-->
 					<div class="col"></div>
 				</div>
 				
-			</section>
+			  </section><!--#contact-->
 			</div>
 			<!--END CONTACT-->
 		
 
 		<footer>
-			<div class="container-fluid">	
+			
 			<div class="row">
 				<div class="col list-social">
 				  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Peechee-Beauty-Bar-1833984843507869/" target="_blank">
@@ -181,8 +218,7 @@
 				</div>
 			</div>
 			  <p>&copy;2017 Peechee Beauty Bar. All Rights Reserved.</p>
-			</div>
-
+	
 		  <!-- <ul class="list-inline">
 				<li class="list-inline-item">
 				<a href="#">Privacy</a>
@@ -197,13 +233,14 @@
    	
 		</footer>
 
-	  <!--END CANVAS-->	
-	  </div><!--scrollup-->	
-		
+	  <!-- END CANVAS: Main platform for all content layout (.scrollup) -->
+	  </div><!--#scrollup-->	
 
+
+	<!-- Popper JS - Important for dropup menu Bootstrap effects -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		
-		
-	<!--Javascript Jquery 3.3 core Library -->
+	<!-- Javascript Jquery 3.3 core Library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
 	<!-- Bootstrap 4.0 core Javascript -->
@@ -213,7 +250,7 @@
 	<script type="text/javascript" src="js/main.js"></script>
 		
         
-	<!--Javascript plugins for Scroll effects -->
+	<!-- Javascript plugins for Scroll effects -->
 	<script type="text/javascript" src="js/plugins.js"></script>	
     <script type="text/javascript" src="js/scrollIt/scrollIt.js"></script>
 	

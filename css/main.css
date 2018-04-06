@@ -16,7 +16,11 @@ a:hover, a:focus {
 }
 
 
+
+
+
 /* Header contains two different banner background images for mobile responsive Opening Styles */
+
 
 #fix-image {
 	position: absolute;
@@ -52,26 +56,23 @@ a:hover, a:focus {
     width: 100%;
     height: 100%;
   }
+  
 }
 
-#downarrow {
+#uparrow {
 	position: absolute;
-	bottom: 30px;
-	right: 30px;
+	bottom: 15px;
+	right: 125px;
 	z-index: 1;
-	width: 60px;
+	width: 27px;
 	cursor: pointer;
 }
 
-#downarrow img {
-	width: 100%;
-	height: auto;
-}
+
 
 
 
 /* Main Site CSS styles*/
-
 
 .scrollup {
 	margin-top: 0px;
@@ -101,17 +102,18 @@ a:hover, a:focus {
 }
 
 
-/*List style for <section> SERVICES */
 
-.unstyled
-{
+
+
+/*List style for <section> SERVICES and CONTACT */
+
+.unstyled {
 	font-family: 'Lora', serif;
     list-style:none;
 	font-weight: 500;
 	letter-spacing: 1px;
 	text-align: center;
 }
-
 
 #services h1, #contact h1 {
 	color: #AB4C54;
@@ -124,8 +126,6 @@ a:hover, a:focus {
     text-align: center;
 }
 
-
-
 #services h4, #contact h4  {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -134,16 +134,30 @@ a:hover, a:focus {
   border: 5px;
   margin-top: 25px;
   text-align: center;
- 
 }
 
 
 
 
+/* CONTACT section map CSS */
 
+.embed-container {
+	position: relative; 
+	width: 100%; 
+	height: 0px; 
+	padding-bottom: 60%;
+	overflow: hidden;
+}
+
+.embed-container iframe{
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 100%; 
+	height: 100%
+}
 
 /* Footer Styles*/
-
 
 footer {
   padding: 5px;
